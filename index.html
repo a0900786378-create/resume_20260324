@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人履歷</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 20px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 25px;
+    }
+
+    .section h2 {
+      border-left: 5px solid #4CAF50;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <img src="images/photo.jpeg" alt="個人照片">
+    <div class="header-info">
+      <h1 id="name">簡湘霓</h1>
+      <p>亞洲大學 聽力暨語言治療學系</p>
+      <p>Email: example@email.com</p>
+      <p>學號: 114018077</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>自我介紹</h2>
+    <p id="intro">我是一位對醫療與人際互動充滿熱情的學生，未來希望從事語言治療相關工作，幫助他人改善溝通能力。</p>
+  </div>
+
+  <div class="section">
+    <h2>學歷</h2>
+    <ul>
+      <li>亞洲大學 聽力暨語言治療學系（就讀中）</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>技能</h2>
+    <ul>
+      <li>良好溝通能力</li>
+      <li>基礎醫療知識</li>
+      <li>團隊合作</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>經驗</h2>
+    <ul>
+      <li>醫院參訪經驗（了解語言治療師工作內容）</li>
+      <li>校內活動參與</li>
+    </ul>
+  </div>
+
+  <button class="btn" onclick="changeIntro()">點我改變自我介紹</button>
+</div>
+
+<script>
+  function changeIntro() {
+    document.getElementById("intro").innerText = "我具備責任感與學習熱忱，未來希望在醫療領域持續精進，並幫助更多需要的人。";
+  }
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人履歷</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 20px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 25px;
+    }
+
+    .section h2 {
+      border-left: 5px solid #4CAF50;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <img src="resume_20260324/images/photo.jpeg" alt="個人照片">
+    <div class="header-info">
+      <h1 id="name">簡湘霓</h1>
+      <p>學號：114018077</p>
+      <p>亞洲大學 聽力暨語言治療學系</p>
+      <p>Email: example@email.com</p>
+      <p>電話: 0912-345-678</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>自我介紹</h2>
+    <p id="intro">我是一位對醫療與人際互動充滿熱情的學生，未來希望從事語言治療相關工作，幫助他人改善溝通能力。</p>
+  </div>
+
+  <div class="section">
+    <h2>學歷</h2>
+    <ul>
+      <li>亞洲大學 聽力暨語言治療學系（就讀中）</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>技能</h2>
+    <ul>
+      <li>良好溝通能力</li>
+      <li>基礎醫療知識</li>
+      <li>團隊合作</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>經驗</h2>
+    <ul>
+      <li>醫院參訪經驗（了解語言治療師工作內容）</li>
+      <li>校內活動參與</li>
+    </ul>
+  </div>
+
+  <button class="btn" onclick="changeIntro()">點我改變自我介紹</button>
+</div>
+
+<script>
+  function changeIntro() {
+    document.getElementById("intro").innerText = "我具備責任感與學習熱忱，未來希望在醫療領域持續精進，並幫助更多需要的人。";
+  }
+</script>
+
+</body>
+</html>
